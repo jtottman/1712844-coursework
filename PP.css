@@ -1,0 +1,74 @@
+body {
+  margin: 0 !important;
+}
+
+/* Banner */
+
+.banner1 img {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: -40px;
+  z-index: 1;
+}
+
+/* Size of the images inserted */
+
+.show img {
+  width: 100%;
+}
+
+/* Nav Bar */
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #270;
+    z-index: 1;
+
+}
+
+.nav ul {
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    width: 100%;
+
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 14px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #110;
+}
+
+/* Main contents postion */
+
+.wrapper {
+  position: relative;
+  top: 200px
+}
+
+/* footers position and color */
+
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+#footer {
+background-color: Grey;
+
+}

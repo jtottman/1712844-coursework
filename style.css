@@ -1,0 +1,66 @@
+/* For my name at bottom right */
+
+div.name {
+  position: fixed;
+  bottom: -10px;
+  right: 10px;
+  color: white;
+}
+
+/* for backgrounds position and sixe */
+
+div.background1 {
+  position: fixed;
+  top: -230px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.banner1 {
+position: fixed;
+top: -50px;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+/* Nav Bar */
+
+section {
+top: -300px;
+
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #270;
+    opacity: 0.5;
+
+}
+
+.nav ul {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    width: 100%;
+
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 14px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #110;
+}
